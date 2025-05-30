@@ -11,8 +11,8 @@ document.getElementById("rollButton").addEventListener("click", function () {
   let diceImage1 = "dice" + randomNumber1 + ".png";
   let diceImage2 = "dice" + randomNumber2 + ".png";
 
-  document.querySelector(".img1").setAttribute("src", diceImage1);
-  document.querySelector(".img2").setAttribute("src", diceImage2);
+  document.querySelector("img.img1").setAttribute("src", diceImage1);
+  document.querySelector("img.img2").setAttribute("src", diceImage2);
 
   if (randomNumber1 > randomNumber2) {
     document.getElementById("rollButton").textContent = `${playerOne} Wins!`;
