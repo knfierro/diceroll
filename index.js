@@ -8,8 +8,8 @@ document.getElementById("rollButton").addEventListener("click", function () {
   let randomNumber1 = Math.floor(Math.random() * 6) + 1;
   let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-  let diceImage1 = "images/dice" + randomNumber1 + ".png";
-  let diceImage2 = "images/dice" + randomNumber2 + ".png";
+  let diceImage1 = "dice" + randomNumber1 + ".png";
+  let diceImage2 = "dice" + randomNumber2 + ".png";
 
   document.querySelector(".img1").setAttribute("src", diceImage1);
   document.querySelector(".img2").setAttribute("src", diceImage2);
