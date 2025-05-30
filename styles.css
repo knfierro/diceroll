@@ -1,0 +1,47 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #6a473eae;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 2rem;
+  color: #5b2609;
+  font-family: 'Lobster', cursive;
+}
+
+img {
+  width: 80%;
+}
+.played {
+  display: none;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
